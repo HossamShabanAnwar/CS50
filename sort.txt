@@ -1,0 +1,19 @@
+sort1 uses: Bubble sort
+
+How do you know?: 1- in random50000.txt it took the biggest time.
+2- it almost equal the time of sort3 incase of reversed50000.txt(worst case scinario) which is O(n^2).
+3- comparing between random50000.txt and sorted50000.txt time you can see how difference it make to be dealing
+with a sorted list which is really important for Bubble algorithm.
+
+sort2 uses: Merged sort
+
+How do you know?: 1- Least time in reversed50000.txt(worst case scinario) because it's in the least order among
+the two other algorithms O(nlogn).
+2- comparing between random50000.txt and sorted50000.txt time you can see how similar their time is indicating that sorted
+or not it doesn't really matter for that algorithm.
+
+sort3 uses: Selection sort
+
+How do you know?: 1- simply cause I'm sure of the other two.
+2- comparing between sorted50000.txt time for all three algorithms you can see how sort3 takes the most time even if the
+list is already sorted that's because it must reach every element and check if sorted or not
